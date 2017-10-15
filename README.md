@@ -18,3 +18,20 @@ user interface.
 5) Show the pick up in store only if the item is available instore, purchasingChannelCode equals 0
 or 2.
 6) Create a carousel to scroll through the images
+
+Test your code - simulate functional testing needs by generating test scripts (automation test cases
+preferred).
+2. Build your code and package using gulp, grunt or other tools of your choice.
+3. Provide approach to deploy code in live environment - continuous delivery flow diagram will
+suffice.
+4. Store code in a public git repository like GitHub, GitLab, BitBucket, or Visual Studio Team Services
+and forward link to Staffing Specialist and Recruiter.
+
+
+## Software Stack
+* [AngularJS ](https://angularjs.org/)
+AngularJS was chosen as the backbone for my client side since that's the framework I'm most familiar with
+* [Bootstrap](http://getbootstrap.com/)
+I used bootstrap to help speed up styling the web page
+* [NodeJS](https://nodejs.org/en/)
+As mentioned in the case study document, node was used to 
