@@ -24,7 +24,8 @@
     "update-webdriver": "webdriver-manager update",
     "preprotractor": "npm run update-webdriver",
     "protractor-test": "protractor protractor.conf.js",
-    "karma-test": "karma start karma.conf.js"
+    "karma-test": "karma start karma.conf.js",
+    "e2e-suite": "bash run-e2e-tests.sh"
   },
   "dependencies": {
     "jasmine-node": "^1.14.5",
