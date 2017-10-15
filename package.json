@@ -1,0 +1,33 @@
+{
+  "name": "myRetail",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/tkloetzk/myRetail",
+  "devDependencies": {
+    "angular": "^1.6.0",
+    "angular-mocks": "^1.6.6",
+    "angular-sanitize": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.8",
+    "karma-junit-reporter": "^0.4.1",
+    "protractor": "^4.0.9",
+    "requirejs": "^2.1.22"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor-test": "protractor protractor.conf.js",
+    "karma-test": "karma start karma.conf.js"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "karma-requirejs": "^1.1.0"
+  }
+}
