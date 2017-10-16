@@ -1,7 +1,7 @@
 (function () {
 'use strict';
 
-angular.module('myRetail', ['ui.router','ngSanitize'])
+angular.module('myRetail')
 .config(['$stateProvider', function($stateProvider) {
     $stateProvider.state('productState', {
         controller: 'ProductCtrl as productCtrl',
